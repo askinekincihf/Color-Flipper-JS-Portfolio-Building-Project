@@ -1,4 +1,6 @@
-const colors = ["green", "red", "blue", "yellow", "grey", "cyan", "darkblue", "pink", "purple", "orange", "rgba(133,122,200)", "#f15025"];
+import {getRandomNumber} from "./randomNumber.js";
+
+import {colors} from "./colors and hex arrays.js";
 
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
