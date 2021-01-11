@@ -1,4 +1,4 @@
-export {getRandomNumber, getRandomNumberHex};
+export { getRandomNumber, getRandomNumberHex };
 
 const getRandomNumber = () => {
     return Math.floor(Math.random() * 10);
